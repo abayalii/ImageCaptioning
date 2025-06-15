@@ -19,7 +19,7 @@ SUBMISSION_FILE = "submission.csv"
 FINETUNED_MODEL_SAVE_PATH = "blip_finetuned_model"
 
 # Fine-tuning parameters
-FT_NUM_EPOCHS = 1 # Start with 1 epoch for fine-tuning test
+FT_NUM_EPOCHS = 3 # Increased from 1 to 3 for more thorough fine-tuning
 FT_BATCH_SIZE = 2  # Reduced from 4 to 2 to address OOM during fine-tuning
 FT_LEARNING_RATE = 5e-5 # Common learning rate for fine-tuning transformers
 
